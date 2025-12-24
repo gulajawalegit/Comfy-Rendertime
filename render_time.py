@@ -8,7 +8,7 @@ class RenderTimeStart:
     def INPUT_TYPES(cls):
         return {
             "required": {
-                "trigger": ("CONDITIONING",)  # execution trigger
+                "trigger": ("STRING",)  # execution trigger
             }
         }
 
